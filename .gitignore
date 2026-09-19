@@ -6,12 +6,14 @@ __pycache__/
 *.pyc
 
 # datasets
-data/raw/
-data/processed/
+data/raw/*
+data/processed/*
 
 # trained model files
-models/checkpoints/
-models/exports/
+models/checkpoints/*
+models/exports/*
 
 # generated outputs
-outputs/
+outputs/*
+outputs/evaluation/*
+outputs/predictions/*

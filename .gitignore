@@ -1,3 +1,17 @@
+# virtual environment
 .venv/
+
+# python
 __pycache__/
 *.pyc
+
+# datasets
+data/raw/
+data/processed/
+
+# trained model files
+models/checkpoints/
+models/exports/
+
+# generated outputs
+outputs/
